@@ -1,0 +1,2 @@
+Las listas son estructuras de datos usadas que estan ordenadas de acuerdo a ciertos criterios, donde cada nodo tiene asignado una direccion de memoria y todo nodo tiene como minimo dos elementos y un puntero a la siguiente direccion de memoria. Asi mismo, el ultimo nodo apunta a una direccion de vacio
+

@@ -1,0 +1,24 @@
+# Exported from 3D Builder
+
+newmtl Naranja
+Kd 1.000000 0.498039 0.145098
+
+newmtl White
+Kd 1.000000 1.000000 1.000000
+map_Kd oak.jpg
+
+newmtl Naranja
+Kd 1.000000 0.498039 0.145098
+
+newmtl Amarillo
+Kd 0.996078 0.945098 0.000000
+
+newmtl Gris
+Kd 0.501961 0.501961 0.501961
+
+newmtl White_0
+Kd 1.000000 1.000000 1.000000
+map_Kd walnut_texture.jpg
+
+newmtl Teja
+Kd 0.529412 0.121569 0.125490

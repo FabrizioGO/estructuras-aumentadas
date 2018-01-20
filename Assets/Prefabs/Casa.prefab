@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 493430}
+  - 33: {fileID: 3373428}
+  - 23: {fileID: 2322634}
+  m_Layer: 0
+  m_Name: default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &194538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 444954}
+  - 114: {fileID: 11490888}
+  m_Layer: 0
+  m_Name: Casa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444954
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194538}
+  m_LocalRotation: {x: -0.49991357, y: -0.49991333, z: -0.5000864, w: 0.50008667}
+  m_LocalPosition: {x: 1.71, y: -0.05, z: 0.03}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 493430}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &493430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 444954}
+  m_RootOrder: 0
+--- !u!23 &2322634
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102756}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1848e358894e22d45ae42667395acf72, type: 2}
+  - {fileID: 2100000, guid: 54947de88e4def845817f9efd841209d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3373428
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102756}
+  m_Mesh: {fileID: 4300000, guid: dd3b2aa2402980142a086a738ad2cf97, type: 3}
+--- !u!114 &11490888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9d9bc2b3395dc44a58eb0f5b3899c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numList: 
+  Puntero: {fileID: 135020, guid: 2d3218c1b68df104facf15ec958be8fa, type: 2}
+  nodo: {fileID: 198238, guid: 685da44e65378824ab0c99bfd824661a, type: 2}
+  parent: {fileID: 0}
+  arrow: {fileID: 119646, guid: 0c815961b6d4c8648820a836ca789719, type: 2}
+  primeroMaterial: {fileID: 2100000, guid: f7e58b33c7c357940b2b419c366f789f, type: 2}
+  segundoMaterial: {fileID: 2100000, guid: a993104af6113324294a0db165ac7ee0, type: 2}
+  arrowContent: {fileID: 413334, guid: 0c815961b6d4c8648820a836ca789719, type: 2}
+  nodoContent: {fileID: 471050, guid: 685da44e65378824ab0c99bfd824661a, type: 2}
+  punteroContent: {fileID: 466106, guid: 2d3218c1b68df104facf15ec958be8fa, type: 2}
+  cantidad: {fileID: 0}
+  codigo: {fileID: 0}
+  codigo2: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 194538}
+  m_IsPrefabParent: 1
